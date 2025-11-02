@@ -43,8 +43,11 @@ export default function Dashboard() {
           </div>
 
           {/* Notificação */}
-          <Button className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-orange-100 transition">
-            <Bell className="text-gray-600 hover:text-orange-600 size-5 transition" />
+          <Button
+            variant="outline"
+            className="w-10 h-10 rounded-full group flex items-center justify-center hover:bg-orange-100 transition"
+          >
+            <Bell className="text-gray-600 group-hover:text-orange-600 size-5 transition" />
           </Button>
         </div>
       </div>

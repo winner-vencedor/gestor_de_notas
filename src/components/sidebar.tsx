@@ -23,7 +23,7 @@ export function Sidebar() {
 
   const navItems = [
     { name: "Dashboard", href: "/dashboard", icon: Home },
-    { name: "Disciplinas", href: "/dashboard/disciplinas", icon: BookOpen },
+    { name: "Instituições", href: "/dashboard/institutions", icon: BookOpen },
     { name: "Avaliações", href: "/dashboard/avaliacoes", icon: ClipboardList },
     { name: "Médias", href: "/dashboard/medias", icon: BarChart3 },
     { name: "Configurações", href: "/dashboard/configuracoes", icon: Settings },
